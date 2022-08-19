@@ -7,8 +7,7 @@ const returnFirstTwoDrivers = function (drivers){
   first2.pop()
   first2.pop()
 console.log(first2)
-// console.log(drivers)
-  return first2;
+return first2;
 
 }
 returnFirstTwoDrivers(drivers)
