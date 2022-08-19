@@ -48,8 +48,7 @@ const returnLastTwoDrivers = function (drivers){
   fareTripler(12);
 
 function selectDifferentDrivers(drivers,fun){
-let slctDfDr = fun(drivers)
-return slctDfDr;
+  return fun(drivers)
   }
 selectDifferentDrivers(drivers,returnFirstTwoDrivers)
 selectDifferentDrivers(drivers,returnLastTwoDrivers)
